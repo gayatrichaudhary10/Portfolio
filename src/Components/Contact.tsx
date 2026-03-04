@@ -1,20 +1,9 @@
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion,  } from "framer-motion";
 import { FaEnvelope, FaLinkedin, FaPhone } from "react-icons/fa";
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
-    setFormData({ name: "", email: "", message: "" });
-  };
 
 const contactInfo = [
   { 
