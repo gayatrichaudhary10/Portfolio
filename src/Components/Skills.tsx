@@ -16,6 +16,8 @@ const Skills: React.FC = () => {
   { name: "Git", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   { name: "Bitbucket", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" },
+    { name: "jQWidgets", img: "https://media.licdn.com/dms/image/v2/C4E0BAQE5UPSMKlf_YA/company-logo_200_200/company-logo_200_200/0/1631356375609?e=2147483647&v=beta&t=8H5fLwHqzTeRFyw96j8A2j6NjI6fSEg6pRVhWd5VFoQ" }
+
 ];
 
   return (
